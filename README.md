@@ -5,6 +5,8 @@ Información institucional de la iniciativa:
 * **Entidad Cliente:** Programa de Permanencia Académica — Institución Universitaria de Envigado (IUE)
 * **Curso Académico:** IF2008 Ingeniería de Software — Grupo 600
 * **Período Lectivo:** Semestre 2026-2
+* **Repositorio Oficial:** [https://github.com/Blasterjax/TutorU-Project](https://github.com/Blasterjax/TutorU-Project)
+* **Tablero Kanban:** [https://github.com/users/Blasterjax/projects/1](https://github.com/users/Blasterjax/projects/1)
 
 ---
 
@@ -83,7 +85,7 @@ El repositorio adopta una jerarquía estandarizada de 7 directorios para asegura
 | `00_Gestion/` | Plan de gestión de la iniciativa, actas de acuerdos, cronograma, estructura WBS y matriz RACI. | Completado (Versión 2.0) |
 | `01_Iniciativa/` | Ficha de estructuración de iniciativa v0.1 con formulación del problema, interesados y alcance. | Completado (Versión 0.1) |
 | `02_Proceso/` | Matriz comparativa de procesos de software y fundamentación técnica del enfoque híbrido. | Completado (Versión 1.0) |
-| `03_Requisitos/` | Plan de elicitación, especificación de requisitos (RF/RNF), historias de usuario y matriz de trazabilidad. | Programado (Etapa 2) |
+| `03_Requisitos/` | Plan de elicitación, especificación de requisitos (RF/RNF), historias de usuario y matriz de trazabilidad. | Completado (Seguimiento 2) |
 | `04_Modelos/` | Modelos conceptuales, diagramas de clases, casos de uso, diagramas de actividades y estados del sistema. | Programado (Etapa 3) |
 | `05_Prototipo/` | Wireframes de baja fidelidad, guía de estilos, componentes de interfaz y prototipo navegable. | Programado (Etapa 4) |
 | `06_Evidencias/` | Presentaciones oficiales de sustentación, actas de validación y registros de avance de tablero. | Completado (Seguimiento 1) |
@@ -121,6 +123,7 @@ Los registros de confirmación en Git deben ser atómicos, utilizar verbos en im
 
 ### 8.3 Gestión Operativa del Tablero (Kanban)
 * **Herramienta oficial:** GitHub Projects integrado al repositorio institucional.
+* **URL del Tablero:** [https://github.com/users/Blasterjax/projects/1](https://github.com/users/Blasterjax/projects/1)
 * **Columnas de flujo:** `Backlog` -> `Ready (Listo)` -> `In Progress (En curso)` -> `Review / QA (En revisión)` -> `Done (Hecho)`.
 * **Límite de Trabajo en Proceso (WIP):** Se define una política restrictiva de un máximo de **2 tareas simultáneas** por equipo en la columna *In Progress* y máximo **2 tareas** en *Review*, minimizando la multitarea y mitigando cuellos de botella.
 * **Criterio de Terminado (Definition of Done - DoD):** Ningún entregable o tarea puede ser promovido al estado *Done* sin cumplir con la revisión cruzada obligatoria efectuada por un compañero distinto al responsable de ejecución y la verificación de trazabilidad frente a los lineamientos de la asignatura.
